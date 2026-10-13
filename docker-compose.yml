@@ -1,0 +1,14 @@
+services:
+  arborvision:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: arborvision_app
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data/uploads:/app/data/uploads
+      - ./data/results:/app/data/results
+    environment:
+      - ARBORVISION_DEVICE=cpu

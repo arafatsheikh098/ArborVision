@@ -1,0 +1,43 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Project data — uploaded images, model caches, experiment results
+data/uploads/
+data/results/
+data/tree_species/
+!data/tree_species/.gitkeep
+!data/results/.gitkeep
+
+# Model weights cache (downloaded by torchvision)
+# The default torch hub cache lives under ~/.cache/torch — not in this repo.
