@@ -41,3 +41,21 @@ data/tree_species/
 
 # Model weights cache (downloaded by torchvision)
 # The default torch hub cache lives under ~/.cache/torch — not in this repo.
+# Security, secrets & audit exclusions
+need_fix.md
+AUDIT_REPORT.md
+CLAUDE.md
+BLOCKERS.md
+DECISIONS.md
+FINAL_REPORT.md
+PLAN.md
+PROJECT_SPEC.md
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+Thumbs.db
