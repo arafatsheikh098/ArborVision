@@ -69,6 +69,18 @@ registered model.
 
 ---
 
+## Screenshots & Visual Walkthrough
+
+| Benchmarking Platform Overview | Upload Images & Run Models |
+| :---: | :---: |
+| ![Platform Overview](docs/screenshots/01-platform-home.png) | ![Upload & Run](docs/screenshots/02-upload-run.png) |
+
+| Side-by-Side Model Comparison | Benchmark Export (CSV/JSON/ZIP) |
+| :---: | :---: |
+| ![Compare Results](docs/screenshots/03-compare-results.png) | ![Export](docs/screenshots/04-export-benchmarks.png) |
+
+---
+
 ## Prerequisites
 
 | Requirement | Minimum | Notes |
